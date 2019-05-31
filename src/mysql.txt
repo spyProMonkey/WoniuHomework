@@ -1,0 +1,9 @@
+create database teamwork;
+use teamwork;
+CREATE TABLE goods(
+gid INT PRIMARY KEY AUTO_INCREMENT,
+gname VARCHAR(20),
+price DECIMAL(6,2)
+);
+INSERT INTO goods VALUES(NULL,'爽歪歪',3.00);
+INSERT INTO goods VALUES(NULL,'乳娃娃',3.00);
